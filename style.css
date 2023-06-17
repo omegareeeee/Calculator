@@ -1,0 +1,28 @@
+#calculator{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 210px;
+}
+button{
+    height: 50px;
+    width: 50px;
+}
+#display{
+    border: 1px solid black;
+    height: 25px;
+}
+#buttons{
+    display: flex;
+    margin: 0;
+}
+
+#operator-buttons{
+    display: flex;
+    flex-direction: column;
+}
+#number-buttons{
+    display: flex;
+    flex-direction: column;
+}
+
